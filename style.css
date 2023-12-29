@@ -1,0 +1,181 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
+}
+
+nav img {
+    width: 80px;
+    margin-left: 40px;
+    margin-top: -60px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.btns a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+#contato {
+    background-color: green; 
+    color: white;   
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+}
+
+#capa {
+    width: 1900px;
+    object-fit: cover;
+    object-position: top;
+    max-width: 1900px;
+    height: 580px;
+    margin-left: -10px;
+    margin-right: -10px;
+    filter: blur(2px);
+    margin-top: -10px;
+    z-index: -1;
+}
+
+.inicio h1 {
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 180px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+.inicio h1 strong{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#conteudo1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 60px 10px 90px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+}
+
+#servicos {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servico {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.servico img {
+    background-color: rgb(255, 127, 255);
+    width: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    filter: invert();
+}
+
+.servico p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#cotacao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: green;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cotacao p {
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+form input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0;
+    margin-top: 10px;
+}
+
+form textarea {
+    width: 400px;
+    border-radius: 10px;
+    border-width: 0;
+    margin-top: 15px;
+}
+
+form button {
+    width: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    cursor: pointer;
+    background-color: rgb(0, 193, 0);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+footer img {
+    width: 150px;
+}
+
+.contato {
+    margin-top: 20px;
+    color: rgb(0, 71, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
