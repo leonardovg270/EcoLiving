@@ -179,3 +179,9 @@ footer img {
     font-weight: bold;
 }
 
+@media(max-width: 516px) {
+    body {
+        overflow-x: hidden;
+    }
+} 
+
