@@ -180,6 +180,14 @@ footer img {
         overflow-x: hidden;
     }
 
+    #servicos {
+        flex-direction: column;
+    }
+
+    #saibaMais {
+        display: none;
+    }
+
     #cotacao {
         display: flex;
         flex-direction: column;
@@ -221,6 +229,14 @@ footer img {
 @media(max-width: 516px) {
     body {
         overflow-x: hidden;
+    }
+
+    #servicos {
+        flex-direction: column;
+    }
+
+    #saibaMais {
+        display: none;
     }
 
     #cotacao {
